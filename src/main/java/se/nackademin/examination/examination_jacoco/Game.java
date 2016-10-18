@@ -18,31 +18,31 @@ public class Game {
 	
 	
 	
-	public ArrayList<String> collectInputData(){
-		ArrayList<String> resultArray = new ArrayList<String>();
-		Scanner scanner = new Scanner(System.in);
-		String inputValue = "";
-		System.out.println("Enter the name of the Game (String):");
-		inputValue = scanner.nextLine();
-		resultArray.add(inputValue);
-		System.out.println("Enter your first name (String):");
-		inputValue = scanner.nextLine();
-		resultArray.add(inputValue);
-		System.out.println("Enter your last name (String)");
-		inputValue = scanner.nextLine();
-		resultArray.add(inputValue);
-		System.out.println("Enter your gender(Char):");
-		inputValue = scanner.nextLine();
-		resultArray.add(inputValue);
-		System.out.println("Enter your age (int):");
-		inputValue = scanner.nextLine();
-		resultArray.add(inputValue);
-		System.out.println("Enter your homecity (String):");
-		inputValue = scanner.nextLine();
-		resultArray.add(inputValue);
-		
-		return resultArray;
-	}
+//	public ArrayList<String> collectInputData(){
+//		ArrayList<String> resultArray = new ArrayList<String>();
+//		Scanner scanner = new Scanner(System.in);
+//		String inputValue = "";
+//		System.out.println("Enter the name of the Game (String):");
+//		inputValue = scanner.nextLine();
+//		resultArray.add(inputValue);
+//		System.out.println("Enter your first name (String):");
+//		inputValue = scanner.nextLine();
+//		resultArray.add(inputValue);
+//		System.out.println("Enter your last name (String)");
+//		inputValue = scanner.nextLine();
+//		resultArray.add(inputValue);
+//		System.out.println("Enter your gender(Char):");
+//		inputValue = scanner.nextLine();
+//		resultArray.add(inputValue);
+//		System.out.println("Enter your age (int):");
+//		inputValue = scanner.nextLine();
+//		resultArray.add(inputValue);
+//		System.out.println("Enter your homecity (String):");
+//		inputValue = scanner.nextLine();
+//		resultArray.add(inputValue);
+//		
+//		return resultArray;
+//	}
 	
 	public char getGenderFromInputValues(ArrayList<String> arrayOfInputs){
 		char genderCharacter = arrayOfInputs.get(3).charAt(0);	
